@@ -1,0 +1,113 @@
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7ff; /* Світло-синій фон */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-size: 22.5px; /* Збільшений розмір шрифту */
+}
+
+header {
+    background-color: #0077b6; /* Темно-синій колір для заголовка */
+    color: #fff;
+    padding: 25px 0; /* Збільшений відступ */
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3.125rem; /* Збільшений розмір заголовка */
+}
+
+main {
+    padding: 25px;
+    max-width: 1125px; /* Збільшена максимальна ширина контенту */
+    margin: 0 auto;
+}
+
+.intro, .content {
+    margin-bottom: 31.25px; /* Збільшений відступ */
+}
+
+.centered-text {
+    text-align: center; /* Вирівнювання тексту по центру */
+}
+
+.cat-image-section {
+    margin: 25px 0; /* Збільшений відступ */
+    text-align: center; /* Вирівнювання по центру */
+}
+
+.cat-long-image {
+    width: 100%; /* Ширина зображення на всю ширину контейнера */
+    height: auto; /* Висота зберігає пропорції */
+    border: 6.25px solid #0077b6; /* Збільшена товщина рамки */
+    border-radius: 12.5px; /* Збільшений радіус кутів */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Збільшена тінь */
+}
+
+.content {
+    display: flex;
+    gap: 40px; /* Відступ між блоками */
+}
+
+.facts, .habits {
+    flex: 1; /* Рівномірний розподіл простору */
+}
+
+.habits table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.habits th, .habits td {
+    border: 2px solid #0077b6; /* Товщина рамки */
+    padding: 15px;
+    text-align: left;
+}
+
+.habits th {
+    background-color: #0077b6; /* Колір заголовків таблиці */
+    color: #fff;
+}
+
+.habits tr:nth-child(even) {
+    background-color: #f2f2f2; /* Колір для парних рядків */
+}
+
+.link, .button {
+    display: inline-block;
+    padding: 12.5px 25px; /* Збільшені відступи */
+    background-color: #0077b6; /* Темно-синій колір для кнопок */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6.25px; /* Збільшений радіус кутів */
+    font-size: 22.5px; /* Збільшений розмір шрифту */
+    transition: background-color 0.3s ease;
+}
+
+.link:hover, .button:hover {
+    background-color: #023e8a; /* Темніший синій при наведенні */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 12.5px 0;
+    margin-top: 31.25px; /* Збільшений відступ */
+    font-size: 22.5px; /* Збільшений розмір шрифту */
+}
+
+/* Стилі для списків */
+ul {
+    list-style-type: square;
+    padding-left: 25px; /* Збільшений відступ */
+}
+
+ul li {
+    margin-bottom: 12.5px; /* Збільшений відступ */
+}
